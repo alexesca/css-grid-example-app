@@ -1,0 +1,36 @@
+.one {
+  grid-area: header;
+  background-color: orange;
+}
+
+.two {
+  grid-area: main;
+  background-color: blue;
+}
+
+.three {
+  grid-area: sidebar;
+  background-color: green;
+}
+
+.four {
+  grid-area: footer;
+  background-color: red;
+}
+
+.grid_tracks_container {
+  display: grid;
+  grid-template-columns: 60px 60px;
+  grid-template-rows: 90px 90px;
+  grid-auto-columns: 22px;
+}
+.grid_tracks_container .one {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.grid_tracks_container .two {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+
+/*# sourceMappingURL=grid_tracks.css.map */
